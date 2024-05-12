@@ -1,0 +1,7 @@
+//Add a script to read the Struct you defined
+import challenge from 0x05
+
+pub fun main(owner: Address):challenge.bike{
+
+return challenge.bikes[owner]!
+}
