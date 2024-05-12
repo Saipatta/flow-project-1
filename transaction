@@ -1,0 +1,12 @@
+//Add a transaction to call that function in step 3.
+import challenge from 0x05
+
+transaction(model:String, year: UInt, owner: Address) {
+
+  prepare(acct: AuthAccount) {}
+
+  execute {
+    challenge.bikeone(model: model, year: year, owner: owner)
+    log("modified")
+  }
+}
